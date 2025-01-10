@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #B9BBDF;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.congratulationapp.StoryTaleController">
+   <Label text="Ваша история:" textAlignment="CENTER">
+      <font>
+         <Font name="Comic Sans MS" size="24.0" />
+      </font>
+   </Label>
+   <TextArea fx:id="StoryTale" maxWidth="931.0" prefHeight="493.0" prefWidth="931.0" style="-fx-background-color: #878ECD; -fx-border-color: #878ECD;" wrapText="true">
+      <font>
+         <Font name="Comic Sans MS" size="16.0" />
+      </font>
+   </TextArea>
+</VBox>
