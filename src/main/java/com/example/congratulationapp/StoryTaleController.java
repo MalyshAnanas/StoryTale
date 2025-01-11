@@ -20,6 +20,10 @@ public class StoryTaleController implements Initializable { //implements Initial
             Horror w = new Horror(Gender, Name, Species, Genre);
             result=w.HorrorText();
         }
+        if(Genre.equals("Фэнтези")){
+            Fantasy w = new Fantasy(Gender, Name, Species, Genre);
+            result=w.FantasyText();
+        }
         StoryTale.setText(result);
         adapter.insert_data(Name, Gender, Species, Genre); //Записываем наши данные в БД
     }

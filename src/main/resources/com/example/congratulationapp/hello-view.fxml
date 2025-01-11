@@ -62,8 +62,7 @@
               <items>
                   <FXCollections fx:factory="observableArrayList">
                       <String fx:value="Хоррор" />
-                      <String fx:value="Фентези" />
-                      <String fx:value="Трагедия" />
+                      <String fx:value="Фэнтези" />
                   </FXCollections>
               </items>
           </ChoiceBox>
