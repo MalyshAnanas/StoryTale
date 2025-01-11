@@ -867,7 +867,7 @@ public class Fantasy {
                     "После услышанного человек лишь тяжело выдохнул, тихо сказав: “Боже, за что мне это…”";
         }
 
-        if (Species.equals("Маг")) {
+        if (Species.equals("Демон")) {
             String[] genderList = new String[66];
             if (Gender.equals("Мужской")) {
                 genderList[0] = "Он";
